@@ -7,10 +7,13 @@ When you launch the project, you'll see a simple window where you can open your 
 The program will then extract text from these PDFs, break it into chunks, and build a vector database using ChromaDB.
 Then, you can prompt the agent, the responses will be rooted in the content extracted from the PDFs.
 
+You can download the folder using this tool:
+https://download-directory.github.io/
+and copying the link to this folder:
+https://github.com/willcelist/rag_implementations/tree/main/rag_n_drop
 
-bash
-Copy code
-git clone https://github.com/your_username/rag-pdf-analysis.git
+Optionaly you can dowload the whole repo:
+git clone https://github.com/willcelist/rag_implementations.git
 
 Install dependencies:
 You'll need to ensure you install Ollama, and download the Llama3 model by running:
